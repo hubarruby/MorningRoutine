@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-right: 10px;
+}
+
+#messageDisplay, #notification, #task {
+    margin-top: 10px;
+    color: #000b6c;
+}
+
+#undoneTasksDisplay {
+    margin-top: 10px;
+    color: #727272;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.task-list {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #f4f4f4; /* Light gray background for task list sections */
+    border-radius: 5px;
+}
+
+.task-count-input {
+    width: 380px;      /* Adjust width as needed */
+    height: 30px;      /* Adjust height for better visibility */
+    font-size: 20px;   /* Larger font size for better readability */
+    padding: 5px;      /* Optional: adds some padding inside the input */
+    border-radius: 5px; /* Optional: rounds the corners of the input field */
+}
+

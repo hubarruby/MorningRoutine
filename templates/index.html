@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Routine</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Morning Routine</h1>
+    <input type="number" id="taskCount" class="task-count-input" placeholder="Enter number of tasks (min: {{ min_tasks }}, max: {{ max_tasks }})" min="{{ min_tasks }}" max="{{ max_tasks }}">
+    <button id="startRoutine" onclick="initRoutine()">Start Routine</button>
+    <div id="task" style="margin-top: 10px; color: #7323be;"></div>
+    <button id="nextTask" onclick="getNextTask()">Next Task</button>
+    <button id="showUndone" onclick="showUndoneTasks()">Show Undone Tasks</button>
+    <div id="undoneTasksDisplay" style="margin-top: 10px; color: #7323be;"></div>
+    <div id="messageDisplay" style="margin-top: 10px; color: #000b6c;"></div>
+    <div id="notification" style="margin-top: 10px; color: #7323be;"></div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
